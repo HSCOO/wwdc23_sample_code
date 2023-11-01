@@ -1,0 +1,50 @@
+# Xcode
+#
+# gitignore for Xcode projects
+#
+# Version 2.3
+#
+# Usage:
+#
+# Save as .gitignore in the root of your Xcode project
+# or use global .gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+.resolve/
+xcshareddata/
+.swiftpm/
+DerivedData/
+.build/
+
