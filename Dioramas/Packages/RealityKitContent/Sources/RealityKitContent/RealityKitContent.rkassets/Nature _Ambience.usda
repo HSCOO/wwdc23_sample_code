@@ -1,0 +1,25 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["SpatialAudio", "Forest_Sounds_wav"]
+    def Xform "SpatialAudio"
+    {
+        reorder nameChildren = ["Forest_Sounds_wav", "SpatialAudio"]
+        def RealityKitComponent "SpatialAudio"
+        {
+            uniform token info:id = "RealityKit.SpatialAudio"
+        }
+    }
+
+    def RealityKitAudioFile "Forest_Sounds_wav"
+    {
+        uniform asset file = @Diorama/Forest_Sounds.wav@
+    }
+}
+

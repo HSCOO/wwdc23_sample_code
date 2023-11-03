@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C575005D2AF1FF44002F47FF /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C575005C2AF1FF44002F47FF /* RealityKitContent */; };
+		C575005F2AF1FF44002F47FF /* MeetSwiftUIForSpatialComputingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575005E2AF1FF44002F47FF /* MeetSwiftUIForSpatialComputingApp.swift */; };
+		C57500612AF1FF44002F47FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57500602AF1FF44002F47FF /* ContentView.swift */; };
+		C57500632AF1FF46002F47FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57500622AF1FF46002F47FF /* Assets.xcassets */; };
+		C57500662AF1FF46002F47FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57500652AF1FF46002F47FF /* Preview Assets.xcassets */; };
+		C575006E2AF21CB5002F47FF /* AnimalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575006D2AF21CB5002F47FF /* AnimalTabView.swift */; };
+		C57500702AF21E28002F47FF /* RegularMaterialBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575006F2AF21E28002F47FF /* RegularMaterialBgView.swift */; };
+		C57500722AF221A0002F47FF /* ForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57500712AF221A0002F47FF /* ForegroundStyleView.swift */; };
+		C57500762AF22472002F47FF /* FunFactDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57500752AF22472002F47FF /* FunFactDisplayView.swift */; };
+		C57500782AF228DD002F47FF /* Globe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57500772AF228DD002F47FF /* Globe.swift */; };
+		C575007A2AF2328B002F47FF /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57500792AF2328B002F47FF /* Earth.swift */; };
+		C575007C2AF240D9002F47FF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575007B2AF240D9002F47FF /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C57500572AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetSwiftUIForSpatialComputing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C575005B2AF1FF44002F47FF /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C575005E2AF1FF44002F47FF /* MeetSwiftUIForSpatialComputingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetSwiftUIForSpatialComputingApp.swift; sourceTree = "<group>"; };
+		C57500602AF1FF44002F47FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C57500622AF1FF46002F47FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C57500652AF1FF46002F47FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C57500672AF1FF46002F47FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C575006D2AF21CB5002F47FF /* AnimalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTabView.swift; sourceTree = "<group>"; };
+		C575006F2AF21E28002F47FF /* RegularMaterialBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularMaterialBgView.swift; sourceTree = "<group>"; };
+		C57500712AF221A0002F47FF /* ForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyleView.swift; sourceTree = "<group>"; };
+		C57500752AF22472002F47FF /* FunFactDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactDisplayView.swift; sourceTree = "<group>"; };
+		C57500772AF228DD002F47FF /* Globe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe.swift; sourceTree = "<group>"; };
+		C57500792AF2328B002F47FF /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
+		C575007B2AF240D9002F47FF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57500542AF1FF44002F47FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575005D2AF1FF44002F47FF /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C575004E2AF1FF44002F47FF = {
+			isa = PBXGroup;
+			children = (
+				C57500592AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing */,
+				C575005A2AF1FF44002F47FF /* Packages */,
+				C57500582AF1FF44002F47FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57500582AF1FF44002F47FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57500572AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57500592AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing */ = {
+			isa = PBXGroup;
+			children = (
+				C575005E2AF1FF44002F47FF /* MeetSwiftUIForSpatialComputingApp.swift */,
+				C57500602AF1FF44002F47FF /* ContentView.swift */,
+				C57500752AF22472002F47FF /* FunFactDisplayView.swift */,
+				C575006D2AF21CB5002F47FF /* AnimalTabView.swift */,
+				C57500712AF221A0002F47FF /* ForegroundStyleView.swift */,
+				C575006F2AF21E28002F47FF /* RegularMaterialBgView.swift */,
+				C57500792AF2328B002F47FF /* Earth.swift */,
+				C57500772AF228DD002F47FF /* Globe.swift */,
+				C575007B2AF240D9002F47FF /* ViewModel.swift */,
+				C57500622AF1FF46002F47FF /* Assets.xcassets */,
+				C57500672AF1FF46002F47FF /* Info.plist */,
+				C57500642AF1FF46002F47FF /* Preview Content */,
+			);
+			path = MeetSwiftUIForSpatialComputing;
+			sourceTree = "<group>";
+		};
+		C575005A2AF1FF44002F47FF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C575005B2AF1FF44002F47FF /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C57500642AF1FF46002F47FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C57500652AF1FF46002F47FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57500562AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C575006A2AF1FF46002F47FF /* Build configuration list for PBXNativeTarget "MeetSwiftUIForSpatialComputing" */;
+			buildPhases = (
+				C57500532AF1FF44002F47FF /* Sources */,
+				C57500542AF1FF44002F47FF /* Frameworks */,
+				C57500552AF1FF44002F47FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetSwiftUIForSpatialComputing;
+			packageProductDependencies = (
+				C575005C2AF1FF44002F47FF /* RealityKitContent */,
+			);
+			productName = MeetSwiftUIForSpatialComputing;
+			productReference = C57500572AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C575004F2AF1FF44002F47FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C57500562AF1FF44002F47FF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = C57500522AF1FF44002F47FF /* Build configuration list for PBXProject "MeetSwiftUIForSpatialComputing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C575004E2AF1FF44002F47FF;
+			productRefGroup = C57500582AF1FF44002F47FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57500562AF1FF44002F47FF /* MeetSwiftUIForSpatialComputing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57500552AF1FF44002F47FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57500662AF1FF46002F47FF /* Preview Assets.xcassets in Resources */,
+				C57500632AF1FF46002F47FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57500532AF1FF44002F47FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57500612AF1FF44002F47FF /* ContentView.swift in Sources */,
+				C575007C2AF240D9002F47FF /* ViewModel.swift in Sources */,
+				C57500722AF221A0002F47FF /* ForegroundStyleView.swift in Sources */,
+				C575007A2AF2328B002F47FF /* Earth.swift in Sources */,
+				C575006E2AF21CB5002F47FF /* AnimalTabView.swift in Sources */,
+				C575005F2AF1FF44002F47FF /* MeetSwiftUIForSpatialComputingApp.swift in Sources */,
+				C57500702AF21E28002F47FF /* RegularMaterialBgView.swift in Sources */,
+				C57500782AF228DD002F47FF /* Globe.swift in Sources */,
+				C57500762AF22472002F47FF /* FunFactDisplayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C57500682AF1FF46002F47FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C57500692AF1FF46002F47FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		C575006B2AF1FF46002F47FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetSwiftUIForSpatialComputing/Preview Content\"";
+				DEVELOPMENT_TEAM = H2Z338TAZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sr.squirRobot.MeetSwiftUIForSpatialComputing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		C575006C2AF1FF46002F47FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetSwiftUIForSpatialComputing/Preview Content\"";
+				DEVELOPMENT_TEAM = H2Z338TAZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sr.squirRobot.MeetSwiftUIForSpatialComputing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57500522AF1FF44002F47FF /* Build configuration list for PBXProject "MeetSwiftUIForSpatialComputing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57500682AF1FF46002F47FF /* Debug */,
+				C57500692AF1FF46002F47FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C575006A2AF1FF46002F47FF /* Build configuration list for PBXNativeTarget "MeetSwiftUIForSpatialComputing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575006B2AF1FF46002F47FF /* Debug */,
+				C575006C2AF1FF46002F47FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C575005C2AF1FF44002F47FF /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C575004F2AF1FF44002F47FF /* Project object */;
+}

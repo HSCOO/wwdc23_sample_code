@@ -1,0 +1,22 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "70F99620-18FE-438F-B2D5-5E0DA02AB759",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Bird_With_Audio .usda" : "D48FCC43-913B-4C48-8DCD-A63A0109C02A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Catalina.usdz" : "0A8A30D7-E300-4907-A03C-63C5E34C80A6",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Cloud_A.usda" : "2A777647-6889-4C11-9C58-7D23A2FDED48",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Cloud_B.usda" : "FBE3D72F-CD34-4EE6-8ADA-6D6A224ED06A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Cloud_C.usda" : "D83B9472-3EE8-4CEB-8AF6-679BF0018D32",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Cloud_Chunk.usda" : "82A57E66-DB10-49E3-8180-F66DB11A2918",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Diorama_Base.usdz" : "F86463F1-64B6-4415-A554-202FF655EDAE",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Diorama\/Location_Pin.usdz" : "A5F69850-6F7B-4529-A591-9A294A1C47C6",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "388995CA-80FC-432E-BA88-78270E4EFD9D",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Location_Pin.usdz" : "D9E1493B-9214-4567-9C8A-12D8F359DA2A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Materials\/GridMaterial.usda" : "281B390E-21A9-48BC-A2E3-E3DE35FEE350",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Nature _Ambience.usda" : "62941ABC-4C19-4EAF-A008-C70D7943D74F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Nature%20_Ambience.usda" : "0B1510FF-C73D-46A7-AD0D-04B1E100D2B3",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Ocean_Audio.usda" : "0E13B4E5-B594-4325-A356-11CDF70C123B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "90C576A0-F90A-43B8-9998-14918A66F863",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Yosemite.usdz" : "E7D3FB7F-89F0-4107-861C-D73BEEA2453E"
+  }
+}

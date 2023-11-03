@@ -1,0 +1,51 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Bird", "Bird_Call_1_wav", "Bird_Call_2_wav", "SpatialAudio", "Bird_Calls"]
+    def "Bird" (
+        active = true
+        references = @Diorama/Bird.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Xform "SpatialAudio" (
+        customData = {
+            float3 rotationEulerHint = (3.1415927, 0, 0)
+        }
+    )
+    {
+        quatf xformOp:orient = (-4.371139e-8, 1, 0, 0)
+        float3 xformOp:translate = (0, -0.0010124595, 0.020717524)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpatialAudio"
+        {
+            float directivityFocus = 0.4794259
+            uniform token info:id = "RealityKit.SpatialAudio"
+        }
+    }
+
+    def RealityKitAudioFileGroup "Bird_Calls"
+    {
+        reorder nameChildren = ["Bird_Call_2_wav", "Bird_Call_1_wav"]
+        def RealityKitAudioFile "Bird_Call_2_wav"
+        {
+            uniform asset file = @Diorama/Bird_Call_2.wav@
+        }
+
+        def RealityKitAudioFile "Bird_Call_1_wav"
+        {
+            uniform asset file = @Diorama/Bird_Call_1.wav@
+        }
+    }
+}
+

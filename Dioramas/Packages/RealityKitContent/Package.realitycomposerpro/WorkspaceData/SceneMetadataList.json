@@ -1,0 +1,377 @@
+{
+  "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
+    "objectMetadataList" : [
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root",
+        "Sphere"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0B1510FF-C73D-46A7-AD0D-04B1E100D2B3" : {
+    "objectMetadataList" : [
+      [
+        "0B1510FF-C73D-46A7-AD0D-04B1E100D2B3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0B1510FF-C73D-46A7-AD0D-04B1E100D2B3",
+        "Root",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0E13B4E5-B594-4325-A356-11CDF70C123B" : {
+    "objectMetadataList" : [
+      [
+        "0E13B4E5-B594-4325-A356-11CDF70C123B",
+        "Root",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/SpatialAudio\/Ocean_Sounds_wav"
+        }
+      },
+      [
+        "0E13B4E5-B594-4325-A356-11CDF70C123B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2A777647-6889-4C11-9C58-7D23A2FDED48" : {
+    "objectMetadataList" : [
+      [
+        "2A777647-6889-4C11-9C58-7D23A2FDED48",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "70F99620-18FE-438F-B2D5-5E0DA02AB759" : {
+    "objectMetadataList" : [
+      [
+        "70F99620-18FE-438F-B2D5-5E0DA02AB759",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "82A57E66-DB10-49E3-8180-F66DB11A2918" : {
+    "objectMetadataList" : [
+      [
+        "82A57E66-DB10-49E3-8180-F66DB11A2918",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "90C576A0-F90A-43B8-9998-14918A66F863" : {
+    "objectMetadataList" : [
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio__3",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio__3\/Bird_Calls"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Forests",
+        "Nature__Ambience",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Forests\/Nature__Ambience\/Forest_Sounds_wav"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "DynamicTerrainMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "OceanEmitter"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/OceanEmitter\/Ocean_Sounds_wav"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio__5",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio__5\/Bird_Calls"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio__1",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio__1\/Bird_Calls"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio__4",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio__4\/Bird_Calls"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Nature__Ambience_1",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Nature__Ambience_1\/Forest_Sounds_wav"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Forests",
+        "Nature__Ambience_1",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Forests\/Nature__Ambience_1\/Forest_Sounds_wav"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Nature__Ambience",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Nature__Ambience\/Forest_Sounds_wav"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio__2",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio__2\/Bird_Calls"
+        }
+      },
+      [
+        "90C576A0-F90A-43B8-9998-14918A66F863",
+        "Root",
+        "Birds",
+        "Bird_With_Audio_",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Birds\/Bird_With_Audio_\/Bird_Calls"
+        }
+      }
+    ]
+  },
+  "62941ABC-4C19-4EAF-A008-C70D7943D74F" : {
+    "objectMetadataList" : [
+      [
+        "62941ABC-4C19-4EAF-A008-C70D7943D74F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "62941ABC-4C19-4EAF-A008-C70D7943D74F",
+        "Root",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Forest_Sounds_wav"
+        }
+      }
+    ]
+  },
+  "388995CA-80FC-432E-BA88-78270E4EFD9D" : {
+    "objectMetadataList" : [
+      [
+        "388995CA-80FC-432E-BA88-78270E4EFD9D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D48FCC43-913B-4C48-8DCD-A63A0109C02A" : {
+    "objectMetadataList" : [
+      [
+        "D48FCC43-913B-4C48-8DCD-A63A0109C02A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D48FCC43-913B-4C48-8DCD-A63A0109C02A",
+        "Root",
+        "Bird_Calls"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D48FCC43-913B-4C48-8DCD-A63A0109C02A",
+        "Root",
+        "SpatialAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Bird_Calls"
+        }
+      }
+    ]
+  },
+  "D83B9472-3EE8-4CEB-8AF6-679BF0018D32" : {
+    "objectMetadataList" : [
+      [
+        "D83B9472-3EE8-4CEB-8AF6-679BF0018D32",
+        "Root",
+        "Cloud_Chunk_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D83B9472-3EE8-4CEB-8AF6-679BF0018D32",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FBE3D72F-CD34-4EE6-8ADA-6D6A224ED06A" : {
+    "objectMetadataList" : [
+      [
+        "FBE3D72F-CD34-4EE6-8ADA-6D6A224ED06A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
