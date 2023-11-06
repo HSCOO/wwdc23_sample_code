@@ -11,6 +11,8 @@ import RealityKitContent
 
 struct ContentView: View {
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
+    @Environment(\.dismissWindow) private var dismissWindow
+    
     @Environment(ViewModel.self) private var model
     
     var body: some View {
@@ -23,6 +25,7 @@ struct ContentView: View {
                 }
                 Task{
                     await openImmersiveSpace(id: "globe")
+                    dismissWindow(id: "rootView")
                 }
             } label: {
                 Text("Jump to Globe")

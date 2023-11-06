@@ -14,10 +14,16 @@ struct MeetSwiftUIForSpatialComputingApp: App {
     @State private var viewModel = ViewModel()
 
     var body: some Scene {
-        WindowGroup {
+        WindowGroup(id: "rootView") {
             ContentView()
                 .environment(viewModel)
         }
+        
+        WindowGroup(id: "rootView2") {
+            ContentView()
+                .environment(viewModel)
+        }
+        .defaultSize(width: 0.5, height: 0.5, depth: 0.5, in: .meters)
 
         ImmersiveSpace(id: "globe") {
             Globe()

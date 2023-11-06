@@ -13,6 +13,7 @@ struct Globe: View {
     @State var rotation = Angle.zero
     @State private var pinLocation: CGPoint?
     @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
+    @Environment(\.openWindow) private var openWindow
 
     var body: some View {
         HStack {
@@ -38,6 +39,7 @@ struct Globe: View {
             Button("back") {
                 Task{
                     await dismissImmersiveSpace()
+                    openWindow(id: "rootView")
                 }
             }
             .buttonStyle(FunFactButtonStyle())
