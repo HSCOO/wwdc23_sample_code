@@ -20,12 +20,17 @@ class EarthEntity: Entity {
     /// A container for artificial satellites.
     private var satellites = Entity()
     
+    /// The Earth's one natural satellite.
+    private var moon: SatelliteEntity = SatelliteEntity()
+    
     init(name: String) async {
         super.init()
         guard let earth = await RealityKitContent.entity(named: "Globe") else {return}
         self.earth = earth
 
-        await self.satellites = SatelliteEntity(xx: "")
+        await self.satellites = SatelliteEntity(.orbitSatelliteDefault)
+        await moon = SatelliteEntity(.orbitMoonDefault)
+        self.addChild(moon)
         
         self.addChild(equatorialPlane)
         equatorialPlane.addChild(earth)
@@ -45,7 +50,8 @@ class EarthEntity: Entity {
             earth.components.set(RotationComponent(speed: 0.1))
         }
         
-        (satellites as? SatelliteEntity)?.update(anchor: earth)
+        (satellites as? SatelliteEntity)?.update(anchor: earth, configuration: .orbitSatelliteDefault, speed: 0.1)
+        moon.update(anchor: self, configuration: .orbitMoonDefault, speed: 0.1)
         
         var planeTransform = equatorialPlane.transform
         planeTransform.rotation = tilt(date: Date())

@@ -37,6 +37,8 @@
 		C5DF60A02AF9DEEB006E5912 /* TraceSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF609F2AF9DEEB006E5912 /* TraceSystem.swift */; };
 		C5DF60A22AF9DEF6006E5912 /* Entity+Trace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60A12AF9DEF6006E5912 /* Entity+Trace.swift */; };
 		C5DF60A42AF9E056006E5912 /* EarthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60A32AF9E056006E5912 /* EarthEntity.swift */; };
+		C5DF60A62AFA10A3006E5912 /* SatelliteEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60A52AFA10A3006E5912 /* SatelliteEntity+Configuration.swift */; };
+		C5DF60A82AFA13EB006E5912 /* MoonEarthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60A72AFA13EB006E5912 /* MoonEarthEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		C5DF609F2AF9DEEB006E5912 /* TraceSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceSystem.swift; sourceTree = "<group>"; };
 		C5DF60A12AF9DEF6006E5912 /* Entity+Trace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+Trace.swift"; sourceTree = "<group>"; };
 		C5DF60A32AF9E056006E5912 /* EarthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthEntity.swift; sourceTree = "<group>"; };
+		C5DF60A52AFA10A3006E5912 /* SatelliteEntity+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SatelliteEntity+Configuration.swift"; sourceTree = "<group>"; };
+		C5DF60A72AFA13EB006E5912 /* MoonEarthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonEarthEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				C5DF60982AF9D3F9006E5912 /* MoonAroundEarth.swift */,
+				C5DF60A72AFA13EB006E5912 /* MoonEarthEntity.swift */,
 			);
 			path = MoonAroundEarth;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				C5DF609F2AF9DEEB006E5912 /* TraceSystem.swift */,
 				C5DF609B2AF9DAFF006E5912 /* SatelliteAroundEarth.swift */,
 				C5DF609D2AF9DB6A006E5912 /* SatelliteEntity.swift */,
+				C5DF60A52AFA10A3006E5912 /* SatelliteEntity+Configuration.swift */,
 				C5DF60A12AF9DEF6006E5912 /* Entity+Trace.swift */,
 				C5DF60A32AF9E056006E5912 /* EarthEntity.swift */,
 			);
@@ -336,6 +342,7 @@
 				C567D4392AF4DF7B004BB561 /* Module.swift in Sources */,
 				C5DF60A22AF9DEF6006E5912 /* Entity+Trace.swift in Sources */,
 				C567D44B2AF890D3004BB561 /* GlobeToggle.swift in Sources */,
+				C5DF60A82AFA13EB006E5912 /* MoonEarthEntity.swift in Sources */,
 				C5DF60A02AF9DEEB006E5912 /* TraceSystem.swift in Sources */,
 				C5DF60942AF9D034006E5912 /* PlacementGesturesModifier.swift in Sources */,
 				C567D4462AF4F805004BB561 /* TypeTextModifier.swift in Sources */,
@@ -346,6 +353,7 @@
 				C5DF60912AF8EC32006E5912 /* EarthRotation.swift in Sources */,
 				C567D4272AF4DF33004BB561 /* MyWorldApp.swift in Sources */,
 				C5DF609C2AF9DAFF006E5912 /* SatelliteAroundEarth.swift in Sources */,
+				C5DF60A62AFA10A3006E5912 /* SatelliteEntity+Configuration.swift in Sources */,
 				C567D43E2AF4E301004BB561 /* TableOfContents.swift in Sources */,
 				C567D4482AF880C5004BB561 /* ModuleDetail.swift in Sources */,
 				C5DF608C2AF8E4BF006E5912 /* DragEarth.swift in Sources */,

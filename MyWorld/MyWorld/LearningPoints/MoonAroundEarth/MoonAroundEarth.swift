@@ -6,10 +6,17 @@
 //
 
 import SwiftUI
+import _RealityKit_SwiftUI
 
 struct MoonAroundEarth: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RealityView { content in
+            let moonEarthEntity = await MoonEarthEntity(name: "")
+            moonEarthEntity.setSunlight(intensity: 14)
+            content.add(moonEarthEntity)
+            moonEarthEntity.update()
+        }
+        .placementGestures(initialPosition: Point3D([450,300.0,100.0]))
     }
 }
 
