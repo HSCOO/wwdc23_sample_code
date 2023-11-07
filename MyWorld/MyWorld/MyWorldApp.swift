@@ -9,13 +9,22 @@ import SwiftUI
 
 @main
 struct MyWorldApp: App {
+    @State private var solarImmersionStyle: ImmersionStyle = .full
+
     @State private var model = ViewModel()
 
     var body: some Scene {
-        WindowGroup {
-            EarthRotation()
+        WindowGroup{
+            SolarDisplayView()
                 .environment(model)
         }
+        .windowStyle(.plain)
+        
+        ImmersiveSpace(id: Module.solar.name) {
+            SolarView()
+                .environment(model)
+        }
+        .immersionStyle(selection: $solarImmersionStyle, in: .full)
     }
     
     init() {

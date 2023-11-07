@@ -66,14 +66,7 @@ struct TableOfContents: View {
 }
 
 
-struct TitleText: View {
-    var title: String
-    var body: some View{
-        Text(title)
-            .monospaced()
-            .font(.system(size: 50, weight: .bold))
-    }
-}
+
 
 #Preview {
     NavigationStack {
