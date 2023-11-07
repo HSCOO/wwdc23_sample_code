@@ -21,5 +21,7 @@ struct MyWorldApp: App {
     init() {
         RotationComponent.registerComponent()
         RotationSystem.registerSystem()
+        TraceComponent.registerComponent()
+        TraceSystem.registerSystem()
     }
 }
