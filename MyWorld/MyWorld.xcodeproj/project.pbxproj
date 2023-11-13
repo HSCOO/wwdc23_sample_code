@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C534BC3F2B01BFB700393A70 /* EarthAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534BC3E2B01BFB700393A70 /* EarthAround.swift */; };
 		C567D4252AF4DF33004BB561 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C567D4242AF4DF33004BB561 /* RealityKitContent */; };
 		C567D4272AF4DF33004BB561 /* MyWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D4262AF4DF33004BB561 /* MyWorldApp.swift */; };
 		C567D4292AF4DF33004BB561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D4282AF4DF33004BB561 /* ContentView.swift */; };
@@ -20,8 +21,6 @@
 		C567D4432AF4EE90004BB561 /* ModuleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D4422AF4EE90004BB561 /* ModuleCard.swift */; };
 		C567D4462AF4F805004BB561 /* TypeTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D4452AF4F805004BB561 /* TypeTextModifier.swift */; };
 		C567D4482AF880C5004BB561 /* ModuleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D4472AF880C5004BB561 /* ModuleDetail.swift */; };
-		C567D44B2AF890D3004BB561 /* GlobeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567D44A2AF890D3004BB561 /* GlobeToggle.swift */; };
-		C5DF607F2AF8DA97006E5912 /* Globe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF607E2AF8DA97006E5912 /* Globe.swift */; };
 		C5DF60812AF8DD56006E5912 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60802AF8DD56006E5912 /* Entity+Sunlight.swift */; };
 		C5DF60832AF8DD9C006E5912 /* Sunlight.skybox in Resources */ = {isa = PBXBuildFile; fileRef = C5DF60822AF8DD9C006E5912 /* Sunlight.skybox */; };
 		C5DF60862AF8E174006E5912 /* EarthSetSunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF60852AF8E174006E5912 /* EarthSetSunlight.swift */; };
@@ -52,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C534BC3E2B01BFB700393A70 /* EarthAround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthAround.swift; sourceTree = "<group>"; };
 		C567D41F2AF4DF33004BB561 /* MyWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C567D4232AF4DF33004BB561 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C567D4262AF4DF33004BB561 /* MyWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorldApp.swift; sourceTree = "<group>"; };
@@ -67,8 +67,6 @@
 		C567D4422AF4EE90004BB561 /* ModuleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCard.swift; sourceTree = "<group>"; };
 		C567D4452AF4F805004BB561 /* TypeTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTextModifier.swift; sourceTree = "<group>"; };
 		C567D4472AF880C5004BB561 /* ModuleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDetail.swift; sourceTree = "<group>"; };
-		C567D44A2AF890D3004BB561 /* GlobeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeToggle.swift; sourceTree = "<group>"; };
-		C5DF607E2AF8DA97006E5912 /* Globe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe.swift; sourceTree = "<group>"; };
 		C5DF60802AF8DD56006E5912 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C5DF60822AF8DD9C006E5912 /* Sunlight.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = Sunlight.skybox; sourceTree = "<group>"; };
 		C5DF60852AF8E174006E5912 /* EarthSetSunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthSetSunlight.swift; sourceTree = "<group>"; };
@@ -110,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C534BC3D2B01BFA100393A70 /* EarthAround */ = {
+			isa = PBXGroup;
+			children = (
+				C534BC3E2B01BFB700393A70 /* EarthAround.swift */,
+			);
+			path = EarthAround;
+			sourceTree = "<group>";
+		};
 		C567D4162AF4DF33004BB561 = {
 			isa = PBXGroup;
 			children = (
@@ -131,15 +137,14 @@
 			isa = PBXGroup;
 			children = (
 				C5DF60842AF8E110006E5912 /* LearningPoints */,
-				C567D4492AF88EE7004BB561 /* Globe */,
 				C567D43F2AF4E87A004BB561 /* Extensions */,
 				C567D43A2AF4E0AC004BB561 /* Modules */,
 				C567D4352AF4DF7B004BB561 /* Model */,
 				C567D4262AF4DF33004BB561 /* MyWorldApp.swift */,
 				C567D4282AF4DF33004BB561 /* ContentView.swift */,
-				C567D42A2AF4DF35004BB561 /* Assets.xcassets */,
 				C5DF60822AF8DD9C006E5912 /* Sunlight.skybox */,
 				C567D42F2AF4DF35004BB561 /* Info.plist */,
+				C567D42A2AF4DF35004BB561 /* Assets.xcassets */,
 				C567D42C2AF4DF35004BB561 /* Preview Content */,
 			);
 			path = MyWorld;
@@ -188,18 +193,10 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		C567D4492AF88EE7004BB561 /* Globe */ = {
-			isa = PBXGroup;
-			children = (
-				C567D44A2AF890D3004BB561 /* GlobeToggle.swift */,
-				C5DF607E2AF8DA97006E5912 /* Globe.swift */,
-			);
-			path = Globe;
-			sourceTree = "<group>";
-		};
 		C5DF60842AF8E110006E5912 /* LearningPoints */ = {
 			isa = PBXGroup;
 			children = (
+				C534BC3D2B01BFA100393A70 /* EarthAround */,
 				C5DF60B12AFA24C8006E5912 /* SolarView */,
 				C5DF60AC2AFA1D40006E5912 /* Display3DAndText */,
 				C5DF60A92AFA1915006E5912 /* TypeTextAnimation */,
@@ -390,7 +387,6 @@
 				C5DF60862AF8E174006E5912 /* EarthSetSunlight.swift in Sources */,
 				C567D4392AF4DF7B004BB561 /* Module.swift in Sources */,
 				C5DF60A22AF9DEF6006E5912 /* Entity+Trace.swift in Sources */,
-				C567D44B2AF890D3004BB561 /* GlobeToggle.swift in Sources */,
 				C5DF60BF2AFA337C006E5912 /* SolarEarthEntity.swift in Sources */,
 				C5DF60A82AFA13EB006E5912 /* MoonEarthEntity.swift in Sources */,
 				C5DF60BD2AFA32F8006E5912 /* SolarEarth.swift in Sources */,
@@ -398,6 +394,7 @@
 				C5DF60942AF9D034006E5912 /* PlacementGesturesModifier.swift in Sources */,
 				C5DF60B52AFA2534006E5912 /* Sun.swift in Sources */,
 				C567D4462AF4F805004BB561 /* TypeTextModifier.swift in Sources */,
+				C534BC3F2B01BFB700393A70 /* EarthAround.swift in Sources */,
 				C567D4432AF4EE90004BB561 /* ModuleCard.swift in Sources */,
 				C567D4382AF4DF7B004BB561 /* ViewModel.swift in Sources */,
 				C5DF60992AF9D3F9006E5912 /* MoonAroundEarth.swift in Sources */,
@@ -414,7 +411,6 @@
 				C5DF60B02AFA1DCE006E5912 /* OrbitView.swift in Sources */,
 				C5DF60AE2AFA1D80006E5912 /* Display3DAndText.swift in Sources */,
 				C567D4412AF4E8A0004BB561 /* VerticalAlignmentExtension.swift in Sources */,
-				C5DF607F2AF8DA97006E5912 /* Globe.swift in Sources */,
 				C5DF608F2AF8EBFE006E5912 /* RotationSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

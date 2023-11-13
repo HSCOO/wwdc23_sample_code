@@ -13,7 +13,7 @@ struct SatelliteAroundEarth: View {
 
     var body: some View {
         RealityView { content in
-            let earth = await EarthEntity(name: "")
+            let earth = await EarthEntity(name: "Globe")
             earth.setSunlight(intensity: 14)
             content.add(earth)
             

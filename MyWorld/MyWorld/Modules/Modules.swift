@@ -30,4 +30,5 @@ struct Modules: View {
 
 #Preview {
     Modules()
+        .environment(ViewModel())
 }

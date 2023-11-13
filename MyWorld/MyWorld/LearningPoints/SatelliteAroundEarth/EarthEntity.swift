@@ -25,7 +25,7 @@ class EarthEntity: Entity {
     
     init(name: String) async {
         super.init()
-        guard let earth = await RealityKitContent.entity(named: "Globe") else {return}
+        guard let earth = await RealityKitContent.entity(named: name) else {return}
         self.earth = earth
 
         await self.satellites = SatelliteEntity(.orbitSatelliteDefault)

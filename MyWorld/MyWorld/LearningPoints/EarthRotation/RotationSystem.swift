@@ -28,6 +28,7 @@ struct RotationSystem: System {
     func update(context: SceneUpdateContext) {
         for entity in context.entities(matching: Self.query, updatingSystemWhen: .rendering) {
             guard let component: RotationComponent = entity.components[RotationComponent.self] else { continue }
+            if component.speed == 0 {return}
             entity.setOrientation(.init(angle: component.speed * Float(context.deltaTime), axis: component.axis), relativeTo: entity)
         }
     }
